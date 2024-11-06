@@ -9,3 +9,5 @@ target(project_name)
     add_packages("glm", "glfw", "vcpkg::gl3w")
 
     add_files("src/**.cpp")
+
+    set_rundir("$(projectdir)")
