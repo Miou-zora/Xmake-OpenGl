@@ -42,7 +42,7 @@ xmake build -y
 xmake run
 ```
 
-### <samp>IDE</samp>
+### ✏️ <samp>IDE</samp>
 
 #### VS Code
 
@@ -51,12 +51,13 @@ If you're using VS Code (on windows), don't forget to add these paths to include
 "path_to_appdata\\Local\\.xmake\\packages\\**",
 "path_to_vcpk\\vcpkg\\installed\\x64-windows-static\\**"
 ```
-If you don't know the correct path for you, you can run:
-```
-xmake l find_package gl3w
-```
-or
-```
-xrepo info glm
-xrepo info glfw
-```
+> [!TIP]
+> If you don't know the correct path for you, you can run:
+> ```
+> xmake l find_package gl3w
+> ```
+> or
+> ```
+> xrepo info glm
+> xrepo info glfw
+> ```
